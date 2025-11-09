@@ -32,8 +32,159 @@ Publish the website in the LocalHost.
 
 ## PROGRAM:
 
+```
+<!DOCTYPE html>
+
+<head>
+  
+    <style>
+        .bookpage {
+            width: 550px;
+            height: 650px;
+            margin-left: auto;
+            margin-right: auto;
+            
+            padding: 20px;
+            font-family: 'Adobe Garamond', serif;
+            background-image: url("BACK.png"); 
+            
+            background-position: center;
+            color: #F4E1A6; 
+        }
+
+        .insight {
+            color: inherit; 
+            font-weight: bold;
+            font-size: medium;
+            font-family: 'Adobe Garamond', serif;
+        }
+
+        .hrstyle {
+            width: 120px;
+            height: 3px;
+            background-color: red;
+            border: none;
+            
+            
+        }
+
+        .author {
+            display: inline;
+            position: relative;
+            color: inherit; 
+            top: 170px;
+            font-family: 'Adobe Garamond', serif;
+            font-size: large;
+            font-weight: bold;
+        }
+
+        .booktitle {
+          font-family: 'Adobe Garamond', serif;
+          font-size: xx-large;
+          text-align: center;
+          position: relative;
+          top: -50px; 
+          font-weight: bold;
+          letter-spacing: 2px;
+          color: inherit;
+        }
+
+        .id {
+            width: 104%;
+            position: relative;
+            top: 180px;
+            height: 3px;
+            background-color: yellow;
+        }
+
+        .pub {
+            font-size: medium;
+            position: relative;
+            top: 130px;
+            left: 400px;
+            color: inherit;
+            font-family: 'Adobe Garamond', serif;
+        }
+
+        .ed {
+            color: inherit;
+            font-size: medium;
+            font-family: 'Adobe Garamond', serif;
+            position: relative;
+            top: 70px;
+        }
+
+        .subtitle {
+            font-family: 'Adobe Garamond', serif;
+            font-size: larger;
+            font-weight: bold;
+            position: relative;
+            top: -90px;
+            color: #FFFFFF;
+            text-align: center;
+        }
+
+        .authorpic {
+            position: relative;
+            top: 110px;
+            left: 370px;
+            width: 170px;
+            height: 100px;
+            background-size: cover;
+        }
+.author,.pub,.ed{
+  color: #EAEAEA;
+}
+
+
+    </style>
+    <title>Book Cover Page</title>
+</head>
+<body>
+  
+    <div class="bookpage">
+      
+        <div class="insight">
+           INFANT F
+        </div>
+        <div class="hrstyle">
+            <hr>
+        </div>
+        <div class="booktitle">
+             <h1>HARRY <br> POTTER</h1>
+        </div>
+        <br>
+        <div class="subtitle">
+             Harry Potter and the Philosopher's Stone
+        </div>
+        <div class="authorpic">
+            <img src="c:\Infant OPPO\DCIM\Camera\IMG20231015101834.jpg" width="160" height="160">
+        </div>
+        <div class="id">
+            <hr>
+        </div>
+        <div class="author">
+            <p><b>INFANT F</b></p>
+        </div> 
+        <div class="pub">
+           Rasi Publishing
+        </div>
+        <div class="ed">
+            <b>Extended Edition</b>
+        </div>
+    </div>
+</body>
+</html>
+```
 
 ## OUTPUT:
+
+<img width="1273" height="1081" alt="image" src="https://github.com/user-attachments/assets/625db575-969d-4244-9ed5-c2a3681d3531" />
+
+
+
+
+
 
 
 ## RESULT:
